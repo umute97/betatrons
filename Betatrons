@@ -1,0 +1,29 @@
+Betatrons
+
+• circular induction accelerator used for electrons/positrons
+• beam acts as a multi-turn secondary
+• single-pulsed power modulator @ a few kV drives the input
+
+• *maximum electron energy*: 300 MeV. Limits:
+   • practical size of pulsed magnets
+   • synchrotron radiation
+
+# Principles
+
+*Setup*
+
+• toroidal vacuum chamber encircles core of a large magnet
+• magnetic fields are produced by pulsed coils
+• mag. flux inside the vac. chamber changes with time
+• *increasing flux → azimuthal electric field → acceleration*
+• proper choice of air gap → force mag. field to transport region → confine path of electrons to circular orbit
+• shaped mag. fields for beam focusing
+
+*Math*
+
+• *Equilib. of forces:* {{{plaintex R = \frac{\gamma m v_\theta}{e B_z(R)} = \frac{p_\theta}{e B_z(R)} }}}
+• *Induction:* {{{plaintex \frac{\d\Phi}{\d t} = 2\pi RE_\theta}}}
+• *Eq. of motion:* {{{plaintex \frac{\d p_\theta}{\d t} = eE_\theta }}}
+• *Rearrange/Integrate above - Betatron Condition* {{{plaintex B_z(R) = \frac{\Delta\Phi}{2\pi R^2}  }}}
+
+
